@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gra">
+    
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/first_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are using the:"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/second_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grab A Tricycle Mobile Application"
+        android:layout_below="@+id/first_1"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textColor="#000"
+        />
+    <ImageView
+        android:id="@+id/third_3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/second_2"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/fourth_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/third_3"
+        android:text="Grab is an android-based mobile application that can be used by the people of bayambang in finding a proper tricycle. This application provides maps of drivers and passengers around bayambang."
+        android:layout_marginTop="20sp" />
+    <TextView
+        android:id="@+id/fifth_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_below="@id/fourth_4"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="Developers:"
+        android:layout_marginTop="20sp"/>
+    <TextView
+        android:id="@+id/six_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/fifth_5"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="Jonsua Emmanuel J. Castro" />
+    <TextView
+        android:id="@+id/seven_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/six_6"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="John Arvie C. Caragan" />
+    <TextView
+        android:id="@+id/eight_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/seven_7"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="Edric G. Lacsamana" />
+    <TextView
+        android:id="@+id/nine_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@id/eight_8"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="Krizel Joy C. Rafaela" />
+
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_below="@id/nine_9"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="In Partnership with"
+        android:layout_marginTop="100sp"
+        />
+    <TextView
+        android:id="@+id/eleven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/ten"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:text="IT Department"
+        />
+
+
+
+
+
+
+</RelativeLayout>

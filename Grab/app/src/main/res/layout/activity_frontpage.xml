@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".frontpage">
+
+    <LinearLayout
+        android:paddingTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:textColor="#000"
+            android:layout_marginTop="150dp"
+            android:layout_width="300dp"
+            android:text="Driver"
+            android:id="@+id/btn_driver"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonselector"
+            android:width="300dp"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:textColor="#000"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/buttonselector"
+            android:layout_width="300dp"
+            android:text="Passenger"
+            android:id="@+id/btn_passenger"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:width="300dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>

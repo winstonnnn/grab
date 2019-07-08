@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/address_fare"
+    android:layout_height="400dp"
+    android:layout_gravity="bottom"
+    android:clipToPadding="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gra"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_peekHeight="0dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/gatRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="20dp"
+        android:text="GAT Request"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/hidebottomsheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:text="X"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/gatDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Destination:"
+        android:layout_below= "@+id/gatRequest"/>
+    <View
+        android:layout_width="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dp"
+        android:layout_below="@+id/destination"
+        android:background="#ffff"/>
+    <TextView
+        android:id="@+id/destination"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="asdadadadasdasdasdsadsada"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gatDestination"/>
+    <TextView
+        android:id="@+id/fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="59dp"
+        android:text="Fare:"
+        android:layout_below="@+id/gatDestination"
+        />
+    <TextView
+        android:id="@+id/fareko"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fare"/>
+    <View
+        android:layout_width="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dp"
+        android:layout_below="@+id/fareko"
+        android:background="#ffff"/>
+    <Button
+    android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:layout_width="300dp"
+    android:text="Find Driver"
+    android:id="@+id/btn_findDriver"
+    android:layout_height="60dp"
+    android:width="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+
+
+
+</RelativeLayout>

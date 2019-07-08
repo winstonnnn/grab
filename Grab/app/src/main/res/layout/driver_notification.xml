@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#fff"
+    android:id="@+id/driver_inforation"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/logo"
+        android:layout_below="@+id/title"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Name:"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/logo_image"/>
+
+    <TextView
+        android:id="@+id/pass_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toRightOf="@+id/name"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Destination:"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/logo_image"/>
+
+    <TextView
+        android:id="@+id/pass_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toRightOf="@+id/destination"
+        android:text="Destination"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Fare:"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_below="@+id/destination"
+        android:layout_toRightOf="@+id/logo_image"/>
+
+    <TextView
+        android:id="@+id/pass_fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destination"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toRightOf="@+id/fare"
+        android:text="Fare"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/logo_image"
+        android:layout_marginTop="10dp"
+        android:text="Accept"
+        android:textColor="#000"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/ignore"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/accept"
+        android:layout_alignParentBottom="true"
+        android:text="Ignore"
+        android:textColor="#000"
+        android:textSize="10sp" />
+
+</RelativeLayout>

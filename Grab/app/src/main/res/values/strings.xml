@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Grab</string>
+    <string name="history">history</string>
+    <string name="notifications">notifications</string>
+    <string name="settings">settings</string>
+    <string name="LOGIN">LOGIN</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

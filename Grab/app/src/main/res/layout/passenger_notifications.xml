@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="160dp"
+    android:background="#fff"
+    android:id="@+id/passenget_notification"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+    android:id="@+id/title_notif"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Notification"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="#000"/>
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/logo"
+        android:layout_below="@+id/title_notif"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Driver Name:"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_below="@+id/title_notif"
+        android:layout_toRightOf="@+id/logo_image"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_notif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toRightOf="@+id/name"
+        android:text="Arvie"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/arrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Arrival:"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/logo_image"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/driver_arrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toRightOf="@+id/arrival"
+        android:text="Arrival"
+        android:textColor="#000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrival"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toRightOf="@+id/logo_image"
+        android:text="You've been accepted"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/okay"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/comment"
+        android:text="Okay"
+        android:textAllCaps="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>

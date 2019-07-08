@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context=".MainActivity"
+    android:background="@drawable/login">
+
+    <LinearLayout
+        android:paddingTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:textColor="#FFFFFF"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:hint=" Username"
+            android:id="@+id/username"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/password"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+        <Button
+            android:textColor="#fff"
+            android:background="@drawable/buttonselector"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:text="LOGIN"
+            android:id="@+id/btn_go"
+            android:layout_height="60dp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

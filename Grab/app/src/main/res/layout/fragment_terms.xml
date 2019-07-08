@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gra">
+
+    <TextView
+        android:id="@+id/Terms_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grab A Tricycle"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/terms"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Condition:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_below="@+id/Terms_title" />
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/terms"
+        android:padding="5dp"
+        android:textStyle="italic"
+        android:text="Please read these TERMS AND CONDITIONS carefully  before using the GRAB TRIKE mobile application and its services (APP) operated by the IT students of Pangasinan State University.
+This TERMS AND CONDITIONS serves as a binding legal agreement between the company and you, the user of this app
+By using the App, you agree that you have read, understood, accepted with the Terms and Conditions. You further agree to the representations you made below. If you do not agree to the terms and conditions please stop and refrain from using the application."
+        android:textColor="#ffff"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:text="INTERNET DELAYS:"
+        android:padding="5dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:text="The App may be may be subject to limitations, Delays, and other problems inherent in the use of the internet and electronic communications including the device used by you or the third party transportation provider being faulty, not connected, out of range, switched off or not functioning. The company is not responsible for any delays, delivery failures, damages or losses resulting from such problems."
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third"
+        android:text="PAYMENT:"
+        android:padding="5dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourth"
+        android:text="Payment for the transportation services shall be on a cash basis. Payment shall be made upon reaching the destination intended by the user. Payment shall be given to the tricycle driver and or operator."
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fifth"
+        android:text="CONFIDENTIALITY:"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/seven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/six"
+        android:text="You shall maintain in confidence all information and data relating to the Company, its services, products, business affairs, marketing and promotion plans or other preparations and its associated companies which are disclosed to you by or on behalf of the Company (whether orally or in writting and whether before, on or after the date of this Agreement) or which are otherwise directly or indirectly acquire by you from the Company, or any of its affiliated companies, or created in the course of this Agreement. You shall further ensure that it, its officers, employees and agents only use such confidential information in order to perform the Service, and shall not without the Company's prior written consent, disclose such information to any third party nor use it for any other purpose. You shall only disclose such information to such officers, employees and agents as need to know it to fulfil its obligations under this Agreement."
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="13sp"/>
+
+
+
+
+
+</RelativeLayout>
